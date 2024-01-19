@@ -1,4 +1,2 @@
-// Add any interactive functionality here
-document.addEventListener('DOMContentLoaded', function () {
-    // You can add JavaScript functionality here
-});
+// You can add interactive functionality here
+console.log('Hello from script.js!');
