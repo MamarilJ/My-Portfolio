@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    transition: background-color 0.5s ease;
 }
 
 header {
@@ -10,10 +11,19 @@ header {
     color: #fff;
     text-align: center;
     padding: 1em;
+    transition: padding 0.5s ease;
 }
 
 header h1 {
     margin: 0;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+header p {
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.5s ease;
 }
 
 section {
@@ -31,8 +41,20 @@ h2 {
 a {
     color: #007bff;
     text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s ease;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 0.5em;
+    }
+
+    section {
+        padding: 1em;
+    }
 }
