@@ -1,12 +1,2 @@
-// Add your animations or interactive features here if needed
-
-// Example: Animated scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+// You can add interactive functionality here
+console.log('Hello from script.js!');
